@@ -1,0 +1,78 @@
+Font Families::::::
+MuseoSans
+PTSans-Regular
+Myriad Pro  regular
+
+
+
+   <div class="single-item-rtl">
+                    <div><img src="images/slider-content-img.png" class="d-block w-100" alt="..."></div>
+                    <div><img src="images/slider-content-img.png" class="d-block w-100" alt="..."></div>
+                    <div><img src="images/slider-content-img.png" class="d-block w-100" alt="..."></div>
+                  </div>
+                <!-- <div class="single-item-rtl">
+                    <div class="container">
+                        <div class="row justify-space-between ">
+                            <div class="col-sm-10 col-md-6">
+                            <img src="images/slider-content-img.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="col-sm-10 col-md-6 text-center">
+                            <h1>RINGS ON SALE</h1>
+                            <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Fusce 
+                            at justo eget lorem port titor tincidunt.</p>
+                            <button type="button" class="button">Visit Store</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">
+                    </span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">
+                    </span>
+                    </button> -->
+ <div class="row justify-content-evenly">
+                        <div class="card col-sm-10 col-md-3">
+                            <img src="images/latus-arival-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Set Of Wedding Rings</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, cocteru
+                                adipiscing elit. Lorem ipsum dolor 
+                                adipiscing elit edam itis. </p>
+                              <a href="#" class="btn btn-primary">View More</a>
+                            </div>
+                          </div>
+                        <div class="card col-sm-10 col-md-3">
+                            <img src="images/latus-arival-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Blue Sky Diamond</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, cocteru
+                                adipiscing elit. Lorem ipsum dolor 
+                                adipiscing elit edam itis. </p>
+                              <a href="#" class="btn btn-primary">View More</a>
+                            </div>
+                          </div>
+                        <div class="card col-sm-10 col-md-3">
+                            <img src="images/latus-arival-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Black Leather Purse</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, cocteru
+                                adipiscing elit. Lorem ipsum dolor 
+                                adipiscing elit edam itis. </p>
+                              <a href="#" class="btn btn-primary">View More</a>
+                            </div>
+                       </div>
+                       <div class="card col-sm-10 col-md-3">
+                        <img src="images/latus-arival-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Silver Ring with blue diamond</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, cocteru
+                                adipiscing elit. Lorem ipsum dolor 
+                                adipiscing elit edam itis. </p>
+                          <a href="#" class="btn btn-primary">View More</a>
+                        </div>
+                      </div>
