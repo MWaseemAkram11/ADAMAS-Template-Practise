@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('../fonts/MuseoSans-300.woff') format('woff2'),
+        url('../fonts/MuseoSans-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Museo Sans 500';
+    src: url('../fonts/MuseoSans-500.woff2') format('woff2'),
+        url('../fonts/MuseoSans-500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('PTSans-NarrowBold.woff2') format('woff2'),
+        url('PTSans-NarrowBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTSans-BoldItalic.woff2') format('woff2'),
+        url('PTSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+.info-section{
+    padding-top: 8px;
+    background-color: #3bbdfb;
+}
+.ul-left{
+    display: flex;
+    list-style: none;
+}
+.ul-left a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Museo Sans 300';
+    padding-left: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.ul-left a i{
+    padding-right: 7px;
+}
+.ul-right{
+    float: right;
+    display: flex;
+    list-style: none;
+}
+/* .ul-right li :last-child{
+    border-right: 2px solid white;
+} */
+.ul-right a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Museo Sans 300';
+    padding-right: 4px;
+    margin-left: 15px;
+}
+.ul-right a i{
+    padding-left: 7px;
+}
+.navbar-section{
+    background-color: transparent;
+    padding: 20px 0px;
+}
+.navbar-nav li a:hover{
+    border-bottom: 2px solid#3bbdfb ;
+}
+.slider-section{
+    background-image: url("../images/slider-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0px;
+    border-bottom: 3px solid rgb(187, 181, 181);
+}
+.text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider-section h1{
+    background-color: #3bbdfb;
+    color: white;
+    padding: 4px 12px;
+    font-size: 47px;
+    font-family: 'PT Sans';
+    margin-bottom: 25px;
+}
+
+.slider-section p{
+    font-family: 'Museo Sans 500';
+    font-size: 17px;
+    line-height: 24px;
+    color: grey;
+    margin-bottom: 25px;
+}
+.slider-section a{
+    background-color: #3bbdfb;
+    color: white;
+    padding: 9px 32px;
+    border: none;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+}
+.carousel-control-next-icon{
+    justify-content: end;
+    padding: 7px;
+    background-color: grey;
+    align-items: center;
+    font-size: 10px;
+}
+.carousel-control-prev-icon{
+    justify-content: start;
+    padding: 7px;
+    background-color: grey;
+    align-items: center;
+    font-size: 10px;
+}
+.cards-section{
+    padding: 50px 0px;
+}
+.car-img-div{
+    margin-bottom: 25px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center h2{
+    text-align: center;
+    /* font-family:PT San ; */
+    font-size: 23px;
+    margin-bottom: 17px;
+
+}
+.center p{
+    text-align: center;
+    color: grey;
+    font-family: 'Museo Sans 300';
+    font: size 13px; ; 
+    margin-bottom: 17px;
+}
+.cards-section a{
+    background-color: #3bbdfb;
+    color: white;
+    padding: 9px 32px;
+    border: none;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.latus-arrival{
+    padding: 40px 0px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+/* .img-div{
+    height: 100px;
+} */
+.latus-arrival span{
+    border-bottom: dotted 1px solid grey;
+}
+.card-img-div{
+    width: 273px;
+}
+.position{
+    display: flex;
+    justify-content:space-evenly;
+}
+.latus-arrival .slick-slider{
+    position: relative;
+}
+.slick-slider.priv_arrow{
+    color: white;
+    background-color: grey;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    position: absolute;
+}
+.card-body{
+    border-bottom: 1px solid grey;
+}
+.card-body h5{
+    font-size: 15px;
+    line-height: 23px;
+    font-family: 'Museo Sans 500';
+}
+.card-body p{
+    font-size: 14px;
+    line-height: 23px;
+}
+.card-body b{
+    float: left;
+    font-size: 14px;
+    font-size: bold;
+    /* padding-left: 4px; */
+}
+.card-body a{
+    float: right;
+    color: white;
+    background-color: #3bbdfb;
+    padding: 2px 16px;
+    border: none;
+}
+.card-body span{
+    border-bottom: 1px solid rgb(223, 218, 218);
+    width: 100%;
+    height: 1px;
+}
+.card-body small{
+    font-size: 14px;
+    padding-left: 3px;
+}
+.catagory{
+    padding: 8px 15px;
+}
+.catagory small{
+    padding: 8px 4px;
+}
+.catagory small i{
+    padding-right: 7px;
+}
+.stars{
+    float: right;
+    padding-left: 4px;
+
+}
+.catagory span{
+    float: right;
+    padding-right: 10px;
+    color: yellow;
+}
+.featured-products{
+    padding: 40px 0px;
+}
+.socail-section{
+    background-color: lightgrey;
+}
+.social-icons-div ul{
+    display: flex;
+    list-style: none;
+}
+.social-icons-div ul li{
+    padding: 10px;
+}
+.social-icons-div{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.social-icons-div p{
+    font-size: 15px;
+    color: grey;
+}
+.social-icons-text-div{
+    display: flex;
+    padding: 20px;
+    border-right: 1px solid white;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;       
+}
+.social-icons-text-div i{
+    font-size: 50px;
+    color:#3bbdfb ;
+}
+.social-icons-text-div p{
+    font-size: 15px;
+    padding-top: 10px;
+    color: grey;
+}
+.footer{
+    background-color: transparent;
+    padding: 50px 0px;
+}
+.footer.container.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 22px;
+    color: solid grey;
+}
