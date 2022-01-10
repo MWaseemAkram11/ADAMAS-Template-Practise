@@ -257,12 +257,22 @@
 .socail-section{
     background-color: lightgrey;
 }
+.socail-section a{
+    background-color: #3bbdfb;
+    color: white;
+}
 .social-icons-div ul{
     display: flex;
     list-style: none;
 }
-.social-icons-div ul li{
-    padding: 10px;
+.social-icons-div span{
+    padding: 8px 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3bbdfb;
+    text-align: center;
+    margin-right: 5px;
 }
 .social-icons-div{
     display: flex;
@@ -270,7 +280,6 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-
 }
 .social-icons-div p{
     font-size: 15px;
@@ -294,8 +303,8 @@
     color: grey;
 }
 .footer{
-    background-color: transparent;
-    padding: 50px 0px;
+    /* background-color: transparent; */
+    padding-top: 50px 0px;
 }
 .footer.container.row{
     display: flex;
@@ -306,4 +315,209 @@
     font-size: 14px;
     line-height: 22px;
     color: solid grey;
+}
+.footer-images-div{
+    
+    background-color: white;
+}
+/* 
+.footer-images-div img{
+    height: 50px;
+    width: 60px;
+    text-align: center;
+} */
+.footer ul{
+    list-style: none;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+.footer ul li{
+    /* margin-bottom: 20px; */
+}
+.footer ul li a{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(41, 40, 40);
+
+}
+.footer ul li a p{
+    padding-left: 20px;
+    color: rgb(41, 40, 40);
+    margin-bottom: 0%;
+
+}
+.footer ul li a span{
+    color: rgb(41, 40, 40);
+    padding-left: 20px;
+}
+.footer ul li a b{
+    padding-left: 20px;
+    color: rgb(41, 40, 40);
+
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer ul li a span i{
+    color: yellow;
+}
+.footer form button{
+    color: white;
+    background-color:#3bbdfb ;
+    padding: 5px 15px;
+    float: right;
+    border: none;
+}
+.info{
+    color:#3bbdfb ;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+.footer h6{
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    font-size: 16px;
+    /* font-family: ; */
+    font-weight: bold;
+}
+.footer-logo{
+    margin-bottom: 35px;
+}
+.inputs-div{
+    background-color: white;
+    border-bottom: 1px thin gainsboro;
+    margin-bottom: 20px;
+}
+.footer-bottom{
+    background-color: rgb(71, 66, 66);
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom ul{
+    list-style: none;
+    display: flex;
+}
+.footer-bottom ul li{
+    padding-right: 10px;
+}
+.footer-bottom ul li a{
+    color: rgb(196, 188, 188);
+}
+.footer-bottom p{
+    float: right;
+    color: rgb(196, 188, 188);
+
+}
+/* *************************************************************** */
+.slide-bar{
+    background-color:#3bbdfb ;
+    padding: 10px 0px;
+}
+.flex{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+.flex i{
+    font-size: 90px;
+    color: white;
+}
+.flex ul{
+    list-style: none;
+}
+.flex ul li{
+    color: white;
+}
+.flex ul h2{
+    font-size: 28px;
+}
+.slide-bar H1{
+    color: white;
+    font-size: 28px;
+}
+.slide-bar-heading ul{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+}
+.slide-bar-heading ul li a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.topside-recen{
+    display: flex;
+    flex-direction: row;
+}
+.topside-recent-child{
+    display: flex;
+    justify-content: start;
+}
+.topside-recent-child ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.topside-recent-child ul a{
+    color: black;
+    text-decoration: none;
+}
+.topside-recent-child ul p{
+    margin: 0px;
+}
+.topside-recent-subchild{
+    margin-left: 20px;
+}
+.topside-recent-child ul i{
+    color: yellow;
+}
+.catagories-section{
+    padding: 30px 0px;
+    background-color: #f7f8fa;
+}
+.top-sidebar-ul ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.top-sidebar-ul ul li{
+    padding-top: 10px;
+}
+.top-sidebar-ul ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+}
+.side-slider{
+    height: 190px;
+    width: 205px;
+    background-color: white;
+    text-align: center;
+}
+.side-slider h4{
+    font-size: 16px;
+    line-height: 18px;
+}
+.card-body {
+    border-bottom: 1px solid rgb(219, 209, 209);
+}
+.catagory-imgs{
+    height: 200px;
+}
+.catagory-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: white;
+    border: none;
+}
+.catagory-icons ul{
+    list-style: none;
+    color: yellow;
 }
